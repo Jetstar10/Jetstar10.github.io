@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+header.hero {
+  background: linear-gradient(135deg, #1d4ed8, #06b6d4);
+  padding: 4rem 0;
+  text-align: center;
+}
+
+header.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  border: none;
+  text-decoration: none;
+  background: #111827;
+  color: #e5e7eb;
+  font-weight: 600;
+}
+
+main section {
+  margin-top: 2.5rem;
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin-bottom: 0.7rem;
+  border-bottom: 2px solid #1f2937;
+  display: inline-block;
+  padding-bottom: 0.2rem;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.project {
+  background: #020617;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  border: 1px solid #1f2937;
+}
+
+.project h3 {
+  margin-bottom: 0.4rem;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0 1rem;
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
