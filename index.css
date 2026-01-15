@@ -143,6 +143,7 @@ h3 {
 h2 {
     font-size: var(--font-size-large);
     margin-bottom: var(--gutter-medium);
+    font-style: italic;
 }
 
 h2::after {
