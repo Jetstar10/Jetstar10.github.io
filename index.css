@@ -10,10 +10,10 @@
 }
 
 @font-face {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    src: url('./fonts/Jost-Regular.ttf') format('woff');
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Jost-Regular.ttf') format('truetype');
 }
 
 * {
