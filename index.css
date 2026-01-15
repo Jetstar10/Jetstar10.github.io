@@ -119,8 +119,8 @@ img {
 /* ----- Headlines and Paragraphs ----- */
 /* --------------------------------------- */
 
-head {
-    font-style: italics;
+h2.head {
+    font-style: italic;
 }
 
 h1,
